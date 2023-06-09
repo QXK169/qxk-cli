@@ -1,0 +1,24 @@
+{
+  "name": "cli-cac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "qxk": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.7.14",
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.5",
+    "shelljs": "^0.8.5",
+    "single-line-log": "^1.1.2",
+    "zx": "^7.2.2"
+  }
+}
